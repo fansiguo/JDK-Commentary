@@ -28,6 +28,10 @@ package java.util;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
+/**
+ * 集合类顶层抽象接口，用来表示一类对象。此接口不提供直接实现，只提供了一些集合类通用的方法。
+ * @@这么设计好处在于使得接口不显得过于庞大，抽象层次比具体的哪一类集合类更高。
+* */
 
 /**
  * The root interface in the <i>collection hierarchy</i>.  A collection
